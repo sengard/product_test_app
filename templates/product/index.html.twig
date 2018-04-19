@@ -1,0 +1,14 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}{{product.name }}{% endblock %}
+
+{% block body %}
+<div class="example-wrapper">
+    <h1> Товар {{ product.name }}</h1>
+    <ol>
+        {% for item in product.categories %}
+            <li><a href="{{ path('category', {'name': item.name}) }}">{{ item.name }}</a></li>
+        {% endfor %}
+    </ol>
+</div>
+{% endblock %}
