@@ -68,4 +68,10 @@ class Category
 
         $this->products[] = $product;
     }
+
+    public function __toString()
+    {
+        return $this->getName();
+    }
+
 }

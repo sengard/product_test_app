@@ -70,4 +70,9 @@ class Product
         $category->setProduct($this);
         $this->categories[] = $category;
     }
+
+    public function __toString()
+    {
+        return $this->getName();
+    }
 }
