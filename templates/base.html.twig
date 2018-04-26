@@ -21,6 +21,16 @@
 
 <aside class="col-md-4 blog-sidebar" style="float:right">
     <div class="p-3">
+        <h4 class="font-italic">Навигация</h4>
+        <ol class="list-unstyled mb-0">
+
+                <li><a href="{{ path('index') }}">Главная</a></li>
+                <li><a href="{{ path('sonata_admin_dashboard') }}">Админка</a></li>
+
+        </ol>
+    </div>
+
+    <div class="p-3">
         <h4 class="font-italic">Категории</h4>
         <ol class="list-unstyled mb-0">
             {% for item in category_service.getAllCategories %}

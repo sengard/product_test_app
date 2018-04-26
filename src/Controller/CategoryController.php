@@ -4,7 +4,6 @@ namespace App\Controller;
 
 use App\Entity\Category;
 use Symfony\Component\Routing\Annotation\Route;
-use Symfony\Bundle\FrameworkBundle\Controller\Controller;
 
 class CategoryController extends Controller
 {

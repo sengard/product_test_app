@@ -12,7 +12,7 @@ What things you need to install the software
 
 ```
 mysql
-php7.1
+php7.2.4
 ```
 
 ### Installing
@@ -34,8 +34,8 @@ php bin/console server:run
 you can login to admin panel with credentials
 
 ```
-matthieu@example.com 
-mypassword
+user: matthieu
+password: mypassword
 ```
 ##  Задача
 
@@ -58,6 +58,11 @@ mypassword
 1.6 Запросы должны выполняться с помощью ORM Doctrine
 
 1.7 Код должен соответствовать стандарту PSR-2
+
+БОНУС: Админка SonataAdminBundle и управление товарами.
+- авторизация в админке, с вводом каптчи.
+- CRUD товаров.
+- пагинация товаров на главной странице.
 
 
 ## Built With
