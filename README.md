@@ -30,6 +30,13 @@ than you can run server
 ```
 php bin/console server:run
 ```
+
+you can login to admin panel with credentials
+
+```
+matthieu@example.com 
+mypassword
+```
 ##  Задача
 
 Проект должен состоять из 3-х страниц:

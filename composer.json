@@ -7,6 +7,8 @@
         "sensio/framework-extra-bundle": "^5.1",
         "sonata-project/admin-bundle": "^3.35",
         "sonata-project/doctrine-orm-admin-bundle": "^3.5",
+        "sonata-project/easy-extends-bundle": "^2.5",
+        "sonata-project/user-bundle": "^4.1",
         "symfony/asset": "^4.0",
         "symfony/console": "^4.0",
         "symfony/expression-language": "^4.0",
@@ -73,7 +75,8 @@
             "php bin/console doctrine:database:create",
             "php bin/console doctrine:schema:update -f",
             "php bin/console doctrine:migrations:migrate -n -q --allow-no-migration",
-            "php bin/console doctrine:fixtures:load -n"
+            "php bin/console doctrine:fixtures:load -n",
+            "php bin/console fos:user:create matthieu matthieu@example.com mypassword --super-admin"
         ],
         "post-update-cmd": [
             "@auto-scripts"
