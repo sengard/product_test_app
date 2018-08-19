@@ -1,6 +1,6 @@
 # Symfony 4 Product application 
 
-тестовое задание на знание фрейморка 
+шаблон для проектов на сонате
 
 ## Getting Started
 
